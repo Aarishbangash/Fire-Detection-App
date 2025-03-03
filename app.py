@@ -18,7 +18,7 @@ import datetime
 import os
 
 # Load YOLO model
-MODEL_PATH = "/content/best (7).pt"
+MODEL_PATH = "/content/best.pt"
 model = YOLO(MODEL_PATH)
 
 # Function to detect fire/smoke
